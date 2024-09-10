@@ -1,0 +1,142 @@
+{
+    "81da1": {
+        "chunk_id": "81da1",
+        "propositions": [
+            "Platform9 Elastic Machine Pool (EMP) is a Kubernetes cost optimization platform.",
+            "Platform9 Elastic Machine Pool (EMP) is for public cloud native Kubernetes offerings.",
+            "Platform9 Elastic Machine Pool (EMP) helps users to reclaim more than 70% of their wasted Kubernetes compute.",
+            "The wasted Kubernetes compute may be sitting idle today.",
+            "Platform9 Elastic Machine Pool (EMP) reduces Kubernetes cluster costs by more than 70%.",
+            "Platform9 Elastic Machine Pool (EMP) supports AWS EKS Kubernetes service today.",
+            "Support for GKE and AKS by Platform9 Elastic Machine Pool (EMP) is coming in the future.",
+            "EMP optimizes Kubernetes utilization by reclaiming existing unused capacity in clusters.",
+            "EMP enables optimization of capacity that is allocated to pods via request and limit values but not actually utilized.",
+            "Many existing tools optimize Kubernetes resource consumption by modifying pods' request and limit values.",
+            "EMP taps into existing unused capacity to deploy new workloads.",
+            "EMP requires no changes to pods' request and limit values.",
+            "When EMP needs to scale and add more capacity, it can 'live migrate' workloads around.",
+            "EMP's 'live migrate' feature results in zero pod disruption.",
+            "EMP's 'live migrate' feature results in much higher availability for stateful workloads.",
+            "EMP's 'live migrate' feature is important for data services.",
+            "EMP's 'live migrate' feature is important for AI/ML applications.",
+            "EMP's 'live migrate' feature is important for large java web applications.",
+            "EMP automatically monitors and optimizes VM deployments to maximize Kubernetes resource utilization.",
+            "EMP handles usage spikes by scaling out underlying infrastructure.",
+            "EMP rebalances workloads without application downtime during usage spikes.",
+            "Resource Consolidation utilizes server consolidation techniques.",
+            "Continuous Monitoring & Real-Time Scaling identifies optimization opportunities in real-time.",
+            "Continuous Monitoring & Real-Time Scaling proactively scales resources up or down to maintain efficiency.",
+            "Continuous Monitoring & Real-Time Scaling employs live migration techniques.",
+            "Live migration techniques are employed to ensure application Service Level Agreements are met during adjustments.",
+            "There is an optional step in the EMP enablement process to choose specific applications for EMP optimization.",
+            "Several monitoring and visibility tools are available on the market for Kubernetes cost management.",
+            "These tools claim to provide significant cost savings for Kubernetes environments.",
+            "Despite the use of Kubernetes cost management tools, Kubernetes utilization remains low.",
+            "With EMP, developers continue to set the requests and limits on application pods as they desire.",
+            "EMP optimizes EKS resource utilization based on demand.",
+            "EMP works behind the scenes to optimize resource utilization.",
+            "EMP is complementary to existing Kubernetes cost management tools.",
+            "EMP can provide value on top of existing Kubernetes cost management technologies by maximizing utilization."
+        ],
+        "title": "Kubernetes Optimization & Cloud Compatibility with Platform9 EMP",
+        "summary": "This chunk provides detailed information about Platform9 Elastic Machine Pool (EMP), focusing on its Kubernetes cost optimization capabilities, resource utilization features, and compatibility with cloud services, while maintaining existing pod configurations.",
+        "chunk_index": 0
+    },
+    "f0b80": {
+        "chunk_id": "f0b80",
+        "propositions": [
+            "This documentation is intended for administrators and operators managing AWS EKS clusters.",
+            "This documentation is intended for DevOps teams seeking to optimize AWS and EKS cloud spend.",
+            "For a comprehensive understanding of EKS, one should refer to the official AWS EKS documentation.",
+            "Resource Consolidation optimizes workload placement on underlying EC2 infrastructure.",
+            "Resource Consolidation significantly reduces wasted CPU resources in EKS clusters.",
+            "Resource Consolidation significantly reduces wasted memory resources in EKS clusters.",
+            "Continuous Monitoring & Real-Time Scaling constantly monitors resource usage across all applications in EKS clusters.",
+            "The integration with existing or new EKS clusters is effortless.",
+            "There are tools that make it easy to use spot instances with EKS clusters.",
+            "Using spot instances with EKS clusters helps reduce costs.",
+            "The unsuitability of spot instances for certain applications puts a ceiling on the savings offered by some tools."
+        ],
+        "title": "AWS EKS Cluster Management, Resource Efficiency & Cost Reduction",
+        "summary": "This chunk provides guidance on managing AWS EKS clusters, with a focus on optimization, cost reduction, resource efficiency, and the integration of monitoring tools and spot instances.",
+        "chunk_index": 1
+    },
+    "c7499": {
+        "chunk_id": "c7499",
+        "propositions": [
+            "This documentation is intended for IT decision-makers evaluating cost saving solutions for AWS and Kubernetes.",
+            "Resource Consolidation utilizes proven virtualization techniques.",
+            "DevOps teams typically spend significant time on cost-saving measures.",
+            "CloudHealth, Cloudability, and Datadog are examples of tools that help understand cloud costs.",
+            "CloudHealth, Cloudability, and Datadog help identify areas where money can be saved in cloud costs.",
+            "There are tools that adjust application's request and limit values to cut costs.",
+            "70% or more of Kubernetes cloud resources are being completely wasted."
+        ],
+        "title": "Cloud Cost Management & Optimization for IT Professionals",
+        "summary": "This chunk offers guidance and tools for IT professionals and DevOps teams to optimize and manage costs in cloud computing, specifically focusing on AWS and Kubernetes.",
+        "chunk_index": 2
+    },
+    "b7440": {
+        "chunk_id": "b7440",
+        "propositions": [
+            "EMP goes beyond bin-packing.",
+            "Open source Karpenter is a tool that uses effective bin packing to allocate nodes for Kubernetes.",
+            "Karpenter allocates nodes just in time to fit pod's resource requirements.",
+            "Tools like Karpenter cannot optimize Kubernetes utilization if there is resource wastage due to high request and limit values.",
+            "Tools like Karpenter involve a 'consolidation' phase where nodes are interrupted.",
+            "During the 'consolidation' phase, fragmented pod deployments are consolidated.",
+            "The 'consolidation' phase requires pod restart.",
+            "Many stateful applications cannot tolerate the pod restart required during the 'consolidation' phase.",
+            "Spot instances are not suitable for stateful applications that cannot tolerate node interrupts.",
+            "Adjusting an application's request and limit values to cut costs will require pod restart for changes to take effect.",
+            "Kubernetes utilization typically ranges between 15 and 30%.",
+            "Application developers frequently define the resource requirements of their Kubernetes workloads based on peak CPU and memory requirements."
+        ],
+        "title": "Kubernetes Optimization & Stateful Application Challenges",
+        "summary": "This chunk discusses Kubernetes resource management and optimization, including the role of tools like Karpenter, the effects of resource allocation and consolidation on pod performance, and the challenges faced by stateful applications in dynamic environments.",
+        "chunk_index": 3
+    },
+    "93cdb": {
+        "chunk_id": "93cdb",
+        "propositions": [
+            "[]"
+        ],
+        "title": "Missing Content Information",
+        "summary": "This chunk will contain information about unspecified or missing content.",
+        "chunk_index": 4
+    },
+    "d53ae": {
+        "chunk_id": "d53ae",
+        "propositions": [
+            "The integration requires no modifications to applications.",
+            "The integration requires no modifications to cluster management processes.",
+            "The enablement process for EMP is simple.",
+            "The first step to enable EMP is to enable EMP for your AWS account.",
+            "The second step to enable EMP is to select the desired EKS clusters.",
+            "EMP does not require changes to the request and limit values of applications."
+        ],
+        "title": "EMP Integration Process & Ease for AWS EKS",
+        "summary": "This chunk outlines the steps and simplicity of integrating EMP with AWS accounts and EKS clusters, emphasizing that no modifications are needed for applications or cluster management.",
+        "chunk_index": 5
+    },
+    "3bbcd": {
+        "chunk_id": "3bbcd",
+        "propositions": [
+            "Zero-Tuning Operations operates autonomously once enabled.",
+            "Zero-Tuning Operations eliminates the need for manual tuning or configuration.",
+            "Zero-Tuning Operations saves DevOps teams significant time."
+        ],
+        "title": "Autonomous Zero-Tuning Operations Advantages",
+        "summary": "This chunk focuses on the advantages and functionalities of Zero-Tuning Operations, highlighting its autonomous nature and time-saving benefits for DevOps teams.",
+        "chunk_index": 6
+    },
+    "892dd": {
+        "chunk_id": "892dd",
+        "propositions": [
+            "CloudHealth, Cloudability, and Datadog do not specifically focus on automating changes to increase overall resource utilization."
+        ],
+        "title": "Cloud Management Platforms",
+        "summary": "This chunk discusses various cloud management platforms and their features related to resource utilization automation.",
+        "chunk_index": 7
+    }
+}
